@@ -101,3 +101,130 @@ while(True):
 
     print("Puanınız = ",kPuan)
     print("-------------------------------------------Oyun Sonu-----------------------------------------------")
+#primitive:
+#int,float,bool
+#String, None,Complex
+
+#Lists, Tuple,
+#Set, Dictionary
+
+#liste1=[1,2,3,4,5,6]
+#liste2=["a","b","c","d"]
+#liste3=[True,False,True]
+#liste4=[None,None]
+#liste5=[2+3j,4+5j,25-21j]
+#liste6=[12.3,10.5,12.12]
+#print(liste1)
+#print(type(liste1))
+#liste7=[1,"a",True,None,2+4j,12.3]
+#print(liste7)
+#print(type(liste7[4]))
+
+
+#liste=[1,2,3,4,5,6]
+#print(len(liste))
+#print("sıralama")
+#list=liste
+#liste+=[10]
+#print(liste[2:5])
+#print(liste[:5])
+#print(liste[2:])
+#print(liste[-1])
+#print(liste[-2])
+#print(liste[0:5:2])
+#for i in list:
+#    print(i)
+
+#liste=[["Ayşe",90],["Fatma",100],[["Beykent","Üni"],"Mustafa",70]]
+#print(liste[0])
+#print(liste[0][1])
+#print(liste[-1][1])
+#print(liste[-1][0][1])
+
+
+#liste=[10,20,30,40]
+#liste[2]=170
+#print(liste[2])
+
+#liste=["KA"]*10
+
+#for i in liste:
+#    print(i)
+
+#for i in enumerate(liste):
+#    print(i)
+
+##arrayi tersine yazma
+#liste=[None]*10
+#for i in range(0,len(liste)):
+#    liste[i]=i*5
+#print(liste)
+
+#liste2=[None]*len(liste)
+#sayac=len(liste)-1
+#for i in range(0,len(liste)):
+#    liste2[i]=liste[sayac]
+#    sayac-=1
+#print(liste2)
+
+#liste=[None for i in range(0,10)]
+#print(liste)
+
+###"**"üst almak anlamına gelir
+#liste=[i**2 for i in range(0,10)]
+#print(liste)
+#liste = [10,20,30,40,50,60]
+##içerisine yazılan değerin indexini bulmayı sağlar
+##aynı değerden 2 veya daha fazla varsa ilk karşılaştığı indexi yazar
+#print(liste.index(30))
+
+#liste=["a","b","c","d","e"]
+###belirtilen indexte bulanan değeri siler
+#sil=liste.pop(2)
+#print(liste)
+
+#nums=[11,22,33,44,55,66,11]
+###belirtilen değerin liste içerinde kaç tane olduğunu sayar
+#print(nums.count(11))
+
+
+#import random as r
+
+#liste=[None]*10
+
+#for i in range(0,len(liste)):
+#    liste[i]=r.randint(0,100)
+#print(liste)
+
+
+###20 elemanlı liste
+##bu liste en az 4 tane 5
+###3 tane9ve 6tane 10 olacak şekilde
+###listeye rastgele sayılar(1,100)
+###atayan program
+#import random as r
+
+#liste = [None] * 20
+#i = 0
+#sayac=0
+#while(True):
+#    print(sayac,". kez deneme")
+#    sayac+=1
+#    for i in range(0,len(liste)):
+#        liste[i]=r.randint(0,10)
+#        i+=1
+#        bes = liste.count(5)
+#        dokuz = liste.count(9)
+#        on = liste.count(10)
+#    if(bes>=2 and dokuz>=2 and on>=2):
+#        print(liste)
+#        print(bes,"tane 5",dokuz,"tane 9",on,"tane 10")
+#        break
+
+##silme ve tersine yazma
+#liste=[1,4,56,8,9,6,25,36,24,45]
+#del(liste[3])
+#liste2=sorted(liste,reverse=True)
+#print(liste2)
+    
+    
